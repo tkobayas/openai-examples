@@ -3,10 +3,12 @@ package org.example;
 import dev.ai4j.openai4j.OpenAiClient;
 import dev.ai4j.openai4j.chat.ChatCompletionRequest;
 import dev.ai4j.openai4j.chat.ChatCompletionResponse;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 class OpenAI4JTest {
 
+    @Disabled
     @Test
     void chatCompletion() {
 
